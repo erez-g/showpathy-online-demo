@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="255 233 540 463" width="540" height="463">
+  <defs>
+    <mask id="gap" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="1000">
+      <rect x="0" y="0" width="1200" height="1000" fill="#fff"/>
+      <rect x="361" y="403" width="413" height="123" rx="61.5" fill="#000"/>
+    </mask>
+    <path id="arm" d="M370,313 A50,50 0 0 1 420,263 L714,263 A51,51 0 0 1 714,365 L494,365 A22,22 0 0 0 472,387 L472,470 L370,470 Z"/>
+  </defs>
+  <g fill="#939BA5" mask="url(#gap)">
+    <use href="#arm"/>
+    <use href="#arm" transform="rotate(180 567.5 464.5)"/>
+  </g>
+  <rect x="370" y="412" width="395" height="105" rx="52.5" fill="#6CCDA3"/>
+  <path d="M285,420 L358,464.5 L285,509 Z" fill="#6CCDA3"/>
+</svg>
